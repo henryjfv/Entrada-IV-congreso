@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="No se encontró registro del pago" />
+
+    <TextView
+        android:textSize="16dp"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:autoLink="email|all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comuníquese con el gestor financiero al correo info_ingenieria.baq@unilibre.edu.co" />
+
+</LinearLayout>
